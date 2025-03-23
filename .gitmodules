@@ -1,0 +1,4 @@
+[submodule "devangelista2-blog/public"]
+	path = devangelista2-blog/public
+	url = https://github.com/devangelista2/devangelista2.github.io
+	branch = main
