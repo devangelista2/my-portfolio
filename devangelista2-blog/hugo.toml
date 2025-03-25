@@ -117,7 +117,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   #  which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
-  fingerprint = ""
+  fingerprint = "sha256"
 
   #  date format
   dateFormat = "27-03-2025"
@@ -293,13 +293,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       gravatarEmail = ""
 
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.jpg"
+      avatarURL = "/images/avatar.png"
 
       #  title shown in home page (HTML format is supported)
       title = ""
 
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "This is My New Hugo Site"
+      subtitle = "<b>Exploring Inverse Problems, </br> Optimization, and Machine Learning. </b> </br> &#x1F50D;&#x1F4CA;&#x1F916;"
 
       # whether to use typeit animation for subtitle
       typeit = true
