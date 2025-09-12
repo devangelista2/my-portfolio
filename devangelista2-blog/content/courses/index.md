@@ -3,6 +3,12 @@ date = '2025-03-23T14:58:26+01:00'
 title = 'Courses'
 +++
 
+## A.A. 2025-2026
+
+### [Statistical and Mathematical Methods for Machine Learning](https://devangelista2.github.io/statistical-mathematical-methods/)
+
+- [Introduction to Python](https://devangelista2.github.io/statistical-mathematical-methods/NLA_numpy/basics_python.html)
+
 ## A.A. 2024-2025
 
 ### [Computational Imaging](https://devangelista2.github.io/computational-imaging)
