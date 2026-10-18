@@ -5,11 +5,19 @@ title = 'Courses'
 
 ## A.A. 2025-2026
 
+### [PhD Course - Introduction to Deep Generative Models](https://devangelista2.github.io/deep-generative-models/)
+- [Introduction to Generative Models](https://devangelista2.github.io/deep-generative-models/01-generative-models/introduction.html)
+- [VAEs](https://devangelista2.github.io/deep-generative-models/04-variational-autoencoders/elbo-and-learning.html)
+- [GANs](https://devangelista2.github.io/deep-generative-models/05-gans/adversarial-learning.html)
+- [Diffusion Models](https://devangelista2.github.io/deep-generative-models/06-diffusion-models/discrete-diffusion.html)
+- [Flow Matching](https://devangelista2.github.io/deep-generative-models/07-flow-matching/flow-matching.html)
+
 ### [Computational Imaging](https://devangelista2.github.io/computational-imaging/2025-26/)
 - [Basics of Neural Networks](https://devangelista2.github.io/computational-imaging/2025-26/intro/from-ml-to-nn.html)
 - [Basics of Pytorch](https://devangelista2.github.io/computational-imaging/2025-26/intro/a-brief-overview-pytorch.html)
-- [Introducing IPPy](https://devangelista2.github.io/computational-imaging/2025-26/end-to-end/deep-dive-into-IPPy.html)
-- [End-to-End Neural Networks](https://devangelista2.github.io/computational-imaging/2025-26/end-to-end/end-to-end.html)
+- [End-to-End Neural Networks](https://devangelista2.github.io/computational-imaging/2025-26/end-to-end/from-ml-to-nn.html)
+- [Generative Models](https://devangelista2.github.io/computational-imaging/2025-26/generative/vaes-and-gans.html)
+- [Diffusion Models for Inverse Problems](https://devangelista2.github.io/computational-imaging/2025-26/generative/generative-inverse-problems.html)
 
 ### [Statistical and Mathematical Methods for Machine Learning](https://devangelista2.github.io/statistical-mathematical-methods/2025-26/)
 

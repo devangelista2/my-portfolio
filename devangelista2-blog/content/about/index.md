@@ -1,31 +1,48 @@
 +++
 date = '2025-03-23T14:57:15+01:00'
+lastmod = '2026-10-18T12:00:00+02:00'
 title = 'About'
 +++
 
 <style>
-  img:hover {
-    transform: translateY(-5px); /* Moves the image up by 5px on hover */
+  .about-intro {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .about-portrait {
+    flex-shrink: 0;
+    width: 180px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid lightgray;
+  }
+  .about-intro p:first-child { margin-top: 0; }
+  @media (max-width: 600px) {
+    .about-intro { flex-direction: column; }
   }
 </style>
-<div style="display: flex; align-items: center;">
-<img src="/images/avatar.png" alt="Profile Picture" width="180" style="border-radius: 20px; margin-right: 20px; border: 5px solid lightgray; transition: transform 0.3s ease;"/>
-<p><b>Davide Evangelista</b> is a Junior Assistant Professor at Univeristy of Bologna specializing in computational imaging, machine learning, and numerical optimization, with a particular focus on solving <i>inverse problems</i> through AI-driven approaches. His work lies at the intersection of deep learning, mathematical modeling, and image reconstruction, with applications in medical imaging, cybersecurity, and optimization. </br></br>
-He teaches <b>computational imaging</b> and <b>machine learning</b>, providing students with hands-on experience in addressing real-world inverse problems. He also actively contributes to open-source software development, including <b><a href="">IPPy</a></b>, a Python library for inverse problems which allows for authomatically differentiate through linear operators. </p>
+
+<div class="about-intro">
+  <img class="about-portrait" src="/images/avatar.png" alt="Davide Evangelista" width="180" />
+  <div>
+    <p>I'm Davide Evangelista, a Junior Assistant Professor in the Department of Computer Science and Engineering at the University of Bologna.</p>
+    <p>I work on inverse problems in imaging: reconstructing images from measurements that are noisy, incomplete, or expensive to acquire. Much of my research concerns medical imaging, especially computed tomography, where I combine numerical optimization and regularization with deep learning.</p>
+  </div>
 </div>
 
-## Research Interests
-His research interests include (but are not limited to):
+## Research
 
-- **Neural Network Stability and Robustness in Imaging Applications**: Davide investigates the theoretical and empirical stability of deep learning models in imaging, focusing on ensuring that neural networks remain robust to perturbations, noise, and adversarial attacks. His research aims to improve the reliability of AI models in critical applications such as medical imaging and remote sensing. </br>
-<a href="https://epubs.siam.org/doi/abs/10.1137/23M1586872">📄</a> *Key paper*: **To be or not to be stable, that is the question: understanding neural networks for inverse problems**
+A recurring question in my work is how much we can trust a learned reconstruction. An image can look convincing and still be inconsistent with the measurements. I study the stability of neural networks for inverse problems and develop methods that use learned information within a mathematical model of the acquisition process. This includes work on sparse-view CT, adaptive regularization, and reducing contrast agent doses.
 
-- **Diffusion Models for Generative Image Reconstruction**: His work in diffusion models explores how probabilistic approaches can be used to reconstruct high-quality images from noisy or incomplete data. These methods are particularly relevant for tasks such as super-resolution, denoising, and medical image enhancement. </br>
-📄 *Key paper*: To be published soon...
+More recently, I've been working with **diffusion models and flow matching** as image priors. I'm interested in how to guide these models with measured data, recover missing structures, and make reconstruction less computationally expensive. I also work on diffusion models for weather downscaling, where the variability between generated samples matters as much as each individual prediction.
 
-- **Continual Learning for Adaptive AI Models**: Davide is interested in developing machine learning systems that can learn continuously from streaming data without suffering from catastrophic forgetting. His work integrates buffer-based methods, such as A-GEM-like approaches, into cybersecurity applications, particularly Intrusion Detection Systems (IDS). </br>
-📄 *Key paper*: To be published soon...
+Alongside imaging, I collaborate on **continual learning and language models**. Recent projects cover normalization for data whose distribution changes over time, the continuity of language models, mathematical reasoning benchmarks, and hallucination detection through hidden representations.
 
-Through this website, he shares research papers, teaching materials, and software projects, fostering collaboration and knowledge exchange within the scientific community.
+The [publications page](/publications/) has the papers and preprints behind these projects.
 
-📩 For inquiries or collaborations, feel free to get in touch.
+## Teaching and code
+
+I teach computational imaging, mathematical methods for machine learning, and deep generative models. My [course pages](/courses/) collect lecture notes and practical material, with Python implementations alongside the mathematics.
+
+Code for my research and teaching is available on [GitHub](https://github.com/devangelista2). You can also find me on [Google Scholar](https://scholar.google.com/citations?user=Ji7V1qEAAAAJ), or email me at [davide.evangelista5@unibo.it](mailto:davide.evangelista5@unibo.it).
