@@ -3,14 +3,27 @@ date = '2025-03-23T14:58:26+01:00'
 title = 'Courses'
 +++
 
+## A.A. 2026-2027
+
+### [Generative AI: Metodi e Applicazioni](https://devangelista2.github.io/generative-ai/2026-27/)
+
+### [PhD Course - Introduction to Deep Generative Models](https://devangelista2.github.io/deep-generative-models/Unimore)
+- [Introduction to Generative Models](https://devangelista2.github.io/deep-generative-models/Unimore/01-generative-models/introduction.html)
+- [VAEs](https://devangelista2.github.io/deep-generative-models/Unimore/04-variational-autoencoders/elbo-and-learning.html)
+- [GANs](https://devangelista2.github.io/deep-generative-models/Unimore/05-gans/adversarial-learning.html)
+- [Diffusion Models](https://devangelista2.github.io/deep-generative-models/Unimore/06-diffusion-models/discrete-diffusion.html)
+- [Flow Matching](https://devangelista2.github.io/deep-generative-models/Unimore/07-flow-matching/flow-matching.html)
+
+### [Statistical and Mathematical Methods for Machine Learning](https://devangelista2.github.io/statistical-mathematical-methods/2026-27/)
+
 ## A.A. 2025-2026
 
 ### [PhD Course - Introduction to Deep Generative Models](https://devangelista2.github.io/deep-generative-models/)
-- [Introduction to Generative Models](https://devangelista2.github.io/deep-generative-models/01-generative-models/introduction.html)
-- [VAEs](https://devangelista2.github.io/deep-generative-models/04-variational-autoencoders/elbo-and-learning.html)
-- [GANs](https://devangelista2.github.io/deep-generative-models/05-gans/adversarial-learning.html)
-- [Diffusion Models](https://devangelista2.github.io/deep-generative-models/06-diffusion-models/discrete-diffusion.html)
-- [Flow Matching](https://devangelista2.github.io/deep-generative-models/07-flow-matching/flow-matching.html)
+- [Introduction to Generative Models](https://devangelista2.github.io/deep-generative-models/Unibo/01-generative-models/introduction.html)
+- [VAEs](https://devangelista2.github.io/deep-generative-models/Unibo/04-variational-autoencoders/elbo-and-learning.html)
+- [GANs](https://devangelista2.github.io/deep-generative-models/Unibo/05-gans/adversarial-learning.html)
+- [Diffusion Models](https://devangelista2.github.io/deep-generative-models/Unibo/06-diffusion-models/discrete-diffusion.html)
+- [Flow Matching](https://devangelista2.github.io/deep-generative-models/Unibo/07-flow-matching/flow-matching.html)
 
 ### [Computational Imaging](https://devangelista2.github.io/computational-imaging/2025-26/)
 - [Basics of Neural Networks](https://devangelista2.github.io/computational-imaging/2025-26/intro/from-ml-to-nn.html)
